@@ -14,35 +14,74 @@ header {
     align-items: center;
 }
 
+main{
+    display: flex;
+    align-items: center;
+}
+
+.freccia {
+    color: white;
+}
+
 .speaker-view {
     height: 30px;
     background-color: rgba(128, 128, 128, 0.534);
     border-radius: 5px;
-    margin:  5px;
+    margin-top: 10px;
     color: white;
     width: auto;
     padding: 5px;
     text-align: center;
 }
 
-#speaker {margin-right: 0;
+#dimension {
+    margin-left: 6px;
+    margin-right: 10px;
 }
 
 .fa-film {
     margin-right: 4px;
 }
 
-main {
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
     width: 90vw;
-    height: calc(100vh - 120px);
     background-color: yellow;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-footer{
+.immagini {
+    width: calc(90vw / 5);
+    height: calc((100vh - 150px)/5);
+    padding: 2px;
+}
+
+.microfono-nome{
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
     height: 60px;
     background-color: rgb(108, 108, 238);
+}
+
+.parte-footer {
+    display: flex;
+    justify-content: space-around;
     
+    width: 150px;
+    height: 55px;
+    background-color: brown;
+    margin: auto 10px;
+}
+
+.parte-footer.destra {
+    background-color: darkgrey;
+    align-items: center;
+    color: red;
 }
