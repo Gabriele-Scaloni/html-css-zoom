@@ -11,18 +11,38 @@ body {
 header {
     display: flex;
     justify-content: flex-end;
-    align-items:center;
+    align-items: center;
 }
 
 .speaker-view {
-    width: 80px;
-    height: 40px;
+    height: 30px;
     background-color: rgba(128, 128, 128, 0.534);
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 5px;
+    margin:  5px;
+    color: white;
+    width: auto;
+    padding: 5px;
+    text-align: center;
 }
 
-#ingrandimento {
-    width: 40px;
-    margin-left: 0;
+#speaker {margin-right: 0;
+}
+
+.fa-film {
+    margin-right: 4px;
+}
+
+main {
+    width: 90vw;
+    height: calc(100vh - 120px);
+    background-color: yellow;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 60px;
+    background-color: rgb(108, 108, 238);
+    
 }
