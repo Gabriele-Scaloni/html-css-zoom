@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.speaker-view {
+    width: 80px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.534);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#ingrandimento {
+    width: 40px;
+    margin-left: 0;
+}
